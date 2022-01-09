@@ -278,15 +278,6 @@ header .navbar ul li a:hover{
     font-size: 1.5rem;
 }
 
-.familybackground .box-container .box{
-    height: 20rem;
-    width:26rem;
-    border-radius: 1rem;
-    margin:2rem;
-    overflow: hidden;
-    cursor: pointer;
-}
-
 .familybackground .box-container .box i{
     top:-1.5rem; left:-2.5rem;
     height:5rem;
@@ -310,6 +301,22 @@ header .navbar ul li a:hover{
     padding: 1rem 0;
 }
 
+.familybackground .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:2rem 0;
+}
+
+.familybackground .box-container .box{
+    height: 20rem;
+    width:26rem;
+    border-radius: 1rem;
+    margin:2rem;
+    overflow: hidden;
+    cursor: pointer;
+}
 
 .familybackground .box-container .box img{
     height:100%;
